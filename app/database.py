@@ -2,7 +2,7 @@ import sqlite3
 import json
 from datetime import datetime, timezone
 from uuid import uuid4
-from app.models import PatientCreate, PatientUpdate
+from models import PatientCreate, PatientUpdate
 
 DB_FILE = "patients.db"
 
